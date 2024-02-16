@@ -32,8 +32,7 @@ html, body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #2c9029;
-  background: yellow;
+  background-color: #357db0;
   color: #FFF;
   height: 70px;
   padding: 1em;
@@ -46,6 +45,13 @@ html, body {
   margin: 0;
   padding: 0;
   margin-right: 30px;
+}
+
+.side:hover {
+    border: 2px solid transparent;
+    background-color: rgb(127, 17, 155);
+    padding: 8px;
+    border-radius: 10px;
 }
 
 .menu > li {
@@ -159,12 +165,13 @@ html, body {
     padding: 25px;
     margin-left: 100px;
     margin-right: 100px;
-    background-color: rgb(100, 204, 183);
-    color: rgb(40, 2, 66);
-    box-shadow: 10px 10px lightblue;
+    background-color: beige;
+    color: rgb(108, 5, 111);
+    box-shadow: 5px 5px rgb(105, 19, 52);
     display: flex;
     flex-wrap: wrap;
-    border-radius: 5px;
+    border-radius: 10px;
+    font-size: 20px;
 }
 
 .our-info>p{
@@ -225,10 +232,7 @@ html, body {
 
 .btn:hover{
     cursor: pointer;
-}
-.btn:visited{
-    background-color: red;
-    color: aquamarine;
+    background-color: rgb(136, 32, 32);
 }
 
 .button span {
@@ -430,4 +434,68 @@ footer > h3 {
 .b1 {
   padding-bottom: 15px;
   padding-top: 15px;
+}
+
+.plan {
+  background-color: rgb(203, 179, 225);
+  padding: 35px;
+  margin-top: 45px;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: rgb(4, 73, 89);
+  box-shadow: 5px 5px 5px 5px rgb(188, 58, 108);
+  border-radius: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.fac-ul {
+  display: inline-block;
+  text-align: left;
+}
+
+.fac-ul>h4{
+  text-align: left;
+}
+
+.price {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  column-gap: 50px;
+  row-gap: 30px;
+  justify-content: center;
+}
+
+.pack{
+  background-color: #ffd0ec;
+  padding: 10px;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.pack > h4 {
+  color: rgb(106, 15, 134);
+}
+.pack > p {
+  color: rgb(50, 8, 52);
+}
+.grab{
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: blueviolet;
+  font-size: 15px;
+}
+
+.pack:hover {
+  background-color: #72ceb4;
+  color: #FFF;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 5px grey;
+}
+
+.grab:hover {
+  background-color: rgb(93, 13, 13);
 }
