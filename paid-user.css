@@ -230,7 +230,7 @@ ul li:hover ul.dropdown{
 }
 
 .story:hover {
-    background-color: rgb(245, 147, 147);
+    background-color: rgb(237, 173, 220);
     box-shadow: 5px 5px 5px 5px rgb(61, 8, 8);
     padding: 40px;
     cursor: grab;
@@ -262,7 +262,7 @@ ul li:hover ul.dropdown{
     text-align: center;
     margin-top: 25px;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 55px;
     padding-left: 20%;
     padding-right: 20%;
     font-size: 25px;
