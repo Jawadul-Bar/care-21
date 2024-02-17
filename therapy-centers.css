@@ -20,3 +20,17 @@
     margin-right: 30px;
     margin-bottom: 50px;
 }
+
+.con{
+    background-color: aquamarine;
+    border: none;
+    margin-left: 30%;
+    padding: 25px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.con:hover{
+    background-color: antiquewhite;
+    cursor: progress;
+}
