@@ -41,11 +41,45 @@ html, body {
 
 .menu {
   display: flex;
-  flex-direction: row;
   list-style-type: none;
   margin: 0;
   padding: 0;
   margin-right: 30px;
+}
+
+ul li{
+  position: relative;
+  display: inline-block;
+}
+
+ul li a{
+  display: block;
+  padding: 5px 25px;
+  text-align: center;
+}
+ul li ul.dropdown li{
+  display: block;
+}
+
+ul li ul.dropdown{
+  width: 10%;
+  background: #7fd1e8;
+  position: fixed;
+  z-index: 999;
+  display: none;
+  padding: 10px;
+  border-radius: 20px;
+  padding-right: 5px;
+  color: #FFF;
+}
+
+ul li a:hover{
+  background-color: rgb(150, 147, 237);
+  border-radius: 15px;
+}
+
+ul li:hover ul.dropdown{
+  display: block;
 }
 
 .side:hover {
@@ -114,6 +148,7 @@ html, body {
   transform: rotate(-405deg);
 }
 
+
 @media (max-width: 576px) {
   .menu-button-container {
     display: flex;
@@ -153,6 +188,20 @@ html, body {
   }
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
+  }
+
+  ul li ul.dropdown{
+    width: 50%;
+    background: #7fd1e8;
+    position: fixed;
+    z-index: 999;
+    display: none;
+    padding: 10px;
+    border-radius: 20px;
+    padding-right: 5px;
+    color: #FFF;
+    border: none;
+    margin-top: 5%;
   }
 }
 
